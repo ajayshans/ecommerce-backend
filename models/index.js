@@ -24,16 +24,16 @@ Product.belongsToMany(Tag, {
     unique: false
   },
   as: 'product_tags'
-})
+});
 
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
   through: {
-    ProductTag,
+    model: ProductTag,
     unique: false
   },
   as: 'tagged_products'
-})
+});
 
 module.exports = {
   Product,
