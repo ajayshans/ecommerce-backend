@@ -10,7 +10,7 @@ The purpose of this project is to utilise Object-Relational Mapping (ORM) to bui
 - API GET routes in Insomnia for categories, products or tags leads to data for each route being displayed and formatted in JSON
 - When testing API POST, PUT and DELETE routes in Insomnia, can successfully create, update and delete data in database
 
-## Node Application Preview
+## Insomnia Application Preview
 ![Application Screenshot 1](images/ecommerce-backend-application-1.png)
 ![Application Screenshot 2](images/ecommerce-backend-application-2.png)
 
